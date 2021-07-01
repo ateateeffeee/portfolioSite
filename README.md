@@ -1,0 +1,1 @@
+This is a personal webpage to showcase my past projects.

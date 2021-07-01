@@ -1,0 +1,22 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ateateeffeee/portfolioSite.git"
+  },
+  "author": "Edward Staples",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ateateeffeee/portfolioSite/issues"
+  },
+  "homepage": "https://github.com/ateateeffeee/portfolioSite#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}
