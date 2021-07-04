@@ -136,7 +136,9 @@ const projectsPage = (() => {
         rightFooterText.innerHTML = 'This is my face';
         rightFooterText.id = 'rightFooterText';
 
-        let image = document.createElement('image');
+        let image = document.createElement('img');
+        image.src = 'Images/me.jpg';
+        image.alt = 'Headshot that was apparently not good enough for The Hallmark Channel.';
         image.id = 'image';
 
         //Append elements
@@ -146,8 +148,8 @@ const projectsPage = (() => {
         leftSide.append(contactText);
         leftSide.append(links);
 
-        rightSide.append(rightFooterText);
         rightSide.append(image);
+        rightSide.append(rightFooterText);
 
         footerDiv.append(leftSide);
         footerDiv.append(rightSide);

@@ -45,10 +45,14 @@ const dynamicListeners = (() => {
             } // navBar listeners
               else if (targetId === 'projectsNav' || targetId === 'seeWorkButton') {
                   projectsPage.init();
-              } else if (targetId === 'homeNav') {
+            } else if (targetId === 'homeNav') {
                   homePage.init();
-              } else {
-                //Nothing happens
+            } //contact link listeners
+              else if (targetId === 'link1') {
+                window.location.assign('https://www.linkedin.com/in/edward-staples-749b7a112');
+            } else if (targetId === 'link2') {
+                window.location.assign('mailto:EdwardRenoStaples@gmail.com');
+                //change the link on click
             }
         })
     }
